@@ -1,0 +1,13 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    gap: 10px;
+    align-items: center; 
+    justify-content: space-between;
+    width: 500px;
+    height: 500px;
+  }
+
+.turn{
+    color: white;
+}
